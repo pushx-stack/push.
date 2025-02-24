@@ -1,0 +1,119 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #6691e0, #335ea2);
+    color: #efcece;
+}
+
+/* Header & Navbar */
+header {
+    background: rgba(10, 10, 10, 0.8);
+    color: rgb(233, 231, 231);
+    padding: 40px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 10px 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Profile Container */
+.profile-container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: rgba(233, 229, 229, 0.1);
+    padding: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 10px 10px rgba(180, 174, 174, 0.3);
+    text-align: left;
+    transition: transform 0.3s ease-in-out;
+}
+
+.profile-container:hover {
+    transform: scale(1.02);
+}
+
+/* Circular Profile Picture */
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 6px solid #ffcc00;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+    flo
+}
+
+.profile-img:hover;
+ {
+    transform: rotate(360deg);
+}
+
+/* Section Styling */
+.section {
+    padding: 25px;
+    text-align: left;
+}
+
+/* Card Design for Sections */
+.card {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+}
+
+.card:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-5px);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    font-size: 18px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Footer */
+footer {
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 16px;
+}
